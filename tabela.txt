@@ -1,0 +1,47 @@
+Restaurant
+ID[Pk]
+name
+image URL
+delivery Fee
+delivery time
+
+Restaurant Category
+ID [PK]
+Restaurant ID [PK]
+Category ID [PK]
+
+Category
+ID [PK]
+Name
+Image URL
+
+Product
+ID [PK]
+Restaurant ID [PK]
+Category ID [PK]
+Name
+Image URL
+Price
+Discount Percentage
+
+Order Product
+ID [PK]
+Product ID[PK]
+Order ID[PK]
+
+User
+ID [PK]
+Name
+Email
+Password
+
+Order
+ID [PK]
+User ID [PK]
+Email
+Password
+
+User WishList
+ID [PK]
+Usr ID [PK]
+Restaurant [PK]
